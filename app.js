@@ -633,7 +633,7 @@ bot.on('message', message => {
   		if(owner){
   			owner = "<@" + owner.id + ">"
   		}else
-  			owner = "Mesmaroth"
+  			owner = "IonitaEduard#9686"
 
   		getInvite(link =>{
   			message.channel.send("**About**", {
@@ -650,11 +650,11 @@ bot.on('message', message => {
 	  					inline: true
 	  				},{
 	  					name: "Version",
-	  					value: "InsideHeartz Music Bot" + botVersion,
+	  					value: "NoxYMusic v" + botVersion,
 	  					inline: true
 	  				},{
 	  					name: "Author",
-	  					value: "Robert (" + owner + ")",
+	  					value: "Eduard (" + owner + ")",
 	  					inline: true
 	  				},{
 	  					name: "Library",
@@ -662,7 +662,7 @@ bot.on('message', message => {
 	  					inline: true
 	  				},{
 	  					name: "Source",
-	  					value: "https://github.com/Mesmaroth/discord-HathorBot",
+	  					value: "Source Is Not Avalabile Yet",
 	  					inline: false
 	  				}],
 	  				thumbnail: {
